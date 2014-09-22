@@ -1,0 +1,36 @@
+\section{Methodological approach}\label{sec:approach}
+
+\subsection{Data Sources}
+
+In our research we will use the following data sources:
+
+\begin{itemize}
+	\item Academic ranking of world universities(ARWU) %write citation
+	\item OECD Education Statistics(OECD iLibrary) %write citation
+\end{itemize}
+
+\subsection{Main Variables}
+We will use a total of five variables for constructing the ranking analysis. Those variables will be:
+\begin{enumerate}
+	\item Overall score (500 universities)
+	\item Top clinical medicine and pharmacy
+	\item Social sciences
+	\item Natural sciences and mathematics
+	\item Engineering/Technology and computer science
+\end{enumerate}
+
+\subsection{Indicators and Weights}
+\begin{table}[h]
+\begin{tabular}{lllll}
+Criteria               & Indicator                                                                                                                                                            & Weight                                              & \multicolumn{2}{l}{\multirow{5}{*}{}} \\
+Quality of Education   & Alumniof an institution winning Nobel Prizes and Fields Medals                                                                                                       & 10\%                                                & \multicolumn{2}{l}{}                  \\
+Quality of Faculty     & \begin{tabular}[c]{@{}l@{}}Staff of an institution winning Nobel Prizes and Fields Medals\\ Highly cited researchers in 21 broad subject categories\end{tabular}     & \begin{tabular}[c]{@{}l@{}}20\%\\ 20\%\end{tabular} & \multicolumn{2}{l}{}                  \\
+Research Output        & \begin{tabular}[c]{@{}l@{}}Papers published in Nature and Science\\ Papers indexed in Science Citation Index-expanded and\\ Social Science Citation Index\end{tabular} & \begin{tabular}[c]{@{}l@{}}20\%\\ 20\%\end{tabular} & \multicolumn{2}{l}{}                  \\
+Per Capita Performance & Per capita academic performance of an institution                                                                                                                    &   10\%                                                  & \multicolumn{2}{l}{}                 
+\end{tabular}
+\end{table}
+
+\subsection{Level of analysis}
+The level of analysis we will use for this project given the type of data is a macro level analysis.
+\subsection{Statistical techniques to be used}
+We will use correlation and classification.
