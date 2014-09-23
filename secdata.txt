@@ -1,0 +1,94 @@
+Background:
+
+- Univerisity rankings play a key role in the academic environment from several persp.
+  - research opportunities
+  - strong candidates for undergrad study who seek to study at the best institutions.
+ As research quality is the key criterion for our reseacrh we have looked for relevant data sets which 
+ consider quality of education as primary factor when performing university ranking and rating systems. 
+
+Motivation: 
+- get an overview of the dynamics of two commonly used university rankings over the last 10 years.
+- identify strong institutions (which remain in the top), identify new univ which made it and the ones that did not.
+- identify reasons for each of these and seek a correlation factor with the specific focuse on the univ 
+
+Research question:
+
+- what are the main criteria which make a univ be ranked as top?
+- which particular field of study seems to be predominant as to what makes a uni good?
+- which particular feature(location/major/) should a good uni have to make it to the top?
+- what are the chances of some other unis to make it to the top or how strong is the dynamic in the top 10-20 (freq changes/no changes)?
+- finally trying to predict what kind of changes should a uni make such that it goes up in ranking
+
+specific focus
+- looking at these rankings from a academic persp only
+- not taking into account private/public/student background/ size of uni and so on
+since the data we have chisen is primarly focused on quality of the education in the resp. institution
+
+expected results
+- graph analysis 
+- correlation factor strong between X and Y because Z
+- considering the univ rankings we use as main source of data, we expect to
+  have a good classification wrt the variables(name them) we chose to focuse on as mentioned in the prev. section 
+- ???
+
+main hypotheses - do in class (see bottom ***)
+- ???
+- ???
+- ???
+
+limitations:
+- our study focuses on specific subject areas 
+- we look at the data from a scientific point a view so some future work can
+- be done in finding correlation factors wrt to other variables(student background for ex.)
+- overcome them - after we have defined the main topic and the relevan research q, we looked for data
+- which takes into account mostly what we are looking for in order to maximize our chanes of find strong 
+correlations which can be then explained and used for further analysis and predictions
+
+
+// do in class
+project plan (time table: who does what, when - need to corrdinate with the syllabus)
+
+Roxana - project manager and production expert
+
+Vlad - ??
+Alex - ??
+
+choose here:
+• content expert
+• data specialist and analysis expert
+
+
+
+
+
+***
+Here are some examples of statistical hypotheses:
+
+The mean age of all GSLIS students is 23.4 years.
+
+The proportion of GSLIS students who are women is 76 percent.
+The variable Hm, representing heights of GSLIS male students, is approximately Gaussianly (i.e.,
+normally) distributed.
+
+The modal grade in LIS 397.1 this semester will be B.
+The proportion of books in the Podunk Public Library whose heights exceed 30 cm is less than or
+equal to 0.13.
+
+A related (and more technical) definition is: A statistical hypothesis that specifies a single value for a population
+parameter is called a simple hypothesis; every statistical hypothesis that is not simple is called composite. Examples
+a, b, and d above are simple; c and e are composite.
+
+It is an interesting fact of language that in any situation involving a possible relationship, there are always at least
+two ways of stating a hypothesis about the relationship: affirmation of the relationship, or denial of it. That is, we
+can always choose between saying "A stands in relationship R to B" or "A fails to stand in relationship R to B." In
+terms of typical statistical hypotheses, such a pair of examples might be: "The mean value of variable X equals the
+mean value of variable Y," and "The means of variables X and Y are different." Note also that further variants are
+possible, such as "The mean value of variable X is not different from the mean value of variable Y," and "The means
+of variables X and Y are not equal." It is usually easier to understand hypotheses that are stated positively than
+those that are stated negatively.
+
+Statistical hypotheses are statements about real relationships; and like all hypotheses, statistical hypotheses may
+match the reality, or they may fail to do so. Statistical hypotheses have the special characteristic that one ordinarily
+attempts to test them (i.e., to reach a decision about whether or not one believes the statement is correct, in the sense
+of corresponding to the reality) by observing facts relevant to the hypothesis in a sample. This procedure, of course,
+introduces the difficulty that the sample may or may not represent well the population from which it was drawn.
