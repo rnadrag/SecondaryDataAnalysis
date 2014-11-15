@@ -38,14 +38,14 @@ for year in range(2005, 2015):
                 uni_country = tmp_name[62:]
 
         if year == 2008:
-            uni_rank = rank.text
+            uni_rank = tr[3].text
         else:
             rank_children = tr[3].getchildren()
             for rank in rank_children:
                 uni_rank = rank.text.rstrip()
 
         if year == 2008:
-            uni_total_score = score.text
+            uni_total_score = tr[4].text
         else:
             score_children = tr[4].getchildren()
             for score in score_children:
@@ -55,7 +55,7 @@ for year in range(2005, 2015):
                     uni_total_score = score.text
 
         if year == 2008:
-            uni_alumni_score = score.text
+            uni_alumni_score = tr[5].text
         else:
             additional_score = tr[5].getchildren()
             for score in additional_score:
