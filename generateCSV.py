@@ -2,7 +2,7 @@ __author__ = 'vvu'
 import urllib
 from lxml.html import fromstring
 for year in range(2005, 2015):
-    f = open(str(year) + '.txt', 'w')
+    f = open('data/' + str(year) + '.csv', 'w')
     url = 'http://www.shanghairanking.com/ARWU' + str(year) + '.html'
     content = urllib.urlopen(url).read()
     doc = fromstring(content)
@@ -27,9 +27,9 @@ for year in range(2005, 2015):
         name_children = tr[1].getchildren()
         for name in name_children:
             if year == 2011:
-                uni_name = name.getchildren()[0].text.rstrip()
+                uni_name = name.getchildren()[0].text.rstrip().replace(',', '')
             else:
-                uni_name = name.text.rstrip()
+                uni_name = name.text.rstrip().replace(',', '')
 
         country_children = tr[2].getchildren()
         for country in country_children:
